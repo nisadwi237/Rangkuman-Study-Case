@@ -1,9 +1,18 @@
 ## Problem Statement
-1. Top Spender User
-2. Total Penjualan per Cluster per Tahun
-3. Top 3 Penjualan Paket Tertinggi per packageType
+Dataset transaksi layanan konseling dan meditasi terdiri dari tiga tabel utama, yaitu Payments, Packages, dan Clusters, yang menyimpan informasi mengenai transaksi pengguna, jenis paket layanan, serta karakteristik cluster layanan. Namun, data tersebut masih perlu dianalisis lebih lanjut untuk mengetahui pola penjualan dan perilaku pengguna.
 
-## Ringkasan Data
+Analisis dilakukan untuk menjawab beberapa permasalahan utama, yaitu:
+
+### 1. Siapa pengguna dengan total pengeluaran tertinggi (Top Spender User)?
+Hal ini diperlukan untuk mengidentifikasi pengguna yang memberikan kontribusi pendapatan terbesar.
+### 2. Bagaimana total penjualan pada setiap cluster dari tahun ke tahun?
+Analisis ini bertujuan untuk mengetahui perkembangan penjualan serta cluster yang memiliki kontribusi penjualan paling besar.
+### 3. Apa saja tiga paket dengan penjualan tertinggi berdasarkan packageType?
+Analisis ini digunakan untuk mengetahui jenis paket yang paling diminati oleh pengguna sehingga dapat menjadi dasar dalam mengevaluasi performa setiap paket.
+
+Tujuan utama analisis adalah memperoleh insight mengenai perilaku pelanggan, performa penjualan, dan popularitas paket layanan konseling serta meditasi sehingga dapat membantu dalam pengambilan keputusan bisnis.
+
+## Gambaran Data
 1. Dataset transaksi layanan konseling & meditasi berisi 3 tabel diantaranya Payments, Packages, dan Clusters.
 2. Tabel Payments mencakup 7 kolom diantaranya kolom id, userId, packageId, paymentType, grandTotal, status, dan createdAt.
 3. Tabel Packages mencakup 7 kolom diantaranya kolom id, name, packageType, totalSession, psychologType, clusterId, dan category.
@@ -15,4 +24,4 @@
 3. Membuat query untuk menampilkan 3 paket dengan total penjualan tertinggi pada masing-masing packageType, dihitung dari seluruh periode waktu yang tersedia. Hanya hitung dengan status success.
 
 # Turn Into Insight
-
+![Dashboard](images/dashboard.png)
