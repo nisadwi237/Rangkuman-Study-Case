@@ -26,4 +26,22 @@ Tujuan utama analisis adalah memperoleh insight mengenai perilaku pelanggan, per
 3. Membuat query untuk menampilkan 3 paket dengan total penjualan tertinggi pada masing-masing packageType, dihitung dari seluruh periode waktu yang tersedia. Hanya hitung dengan status success.
 
 # Turn Into Insight
-![Dashboard](https://github.com/nisadwi237/Rangkuman-Study-Case/blob/main/Project%20Data%20Analysis/DASHBOARD_DATA_TRANSAKSI_KLIEN%20(1)_page-0001.jpg)
+Berdasarkan hasil analisis transaksi dengan status **success**, diperoleh beberapa insight utama sebagai berikut:
+
+### 1. Top Spender User
+
+Analisis menunjukkan adanya pengguna dengan total pengeluaran tertinggi dibandingkan pengguna lainnya. Pengguna dengan nilai transaksi terbesar menjadi salah satu kontributor penting terhadap pendapatan layanan.
+
+Insight ini dapat digunakan untuk mengidentifikasi pelanggan dengan nilai transaksi tinggi dan menjadi pertimbangan dalam menyusun strategi **customer retention**, seperti pemberian loyalty program, penawaran khusus, atau rekomendasi paket yang sesuai dengan kebutuhan pelanggan.
+
+### 2. Perkembangan Penjualan Berdasarkan Cluster
+
+Total penjualan pada setiap cluster menunjukkan adanya perbedaan kontribusi terhadap keseluruhan pendapatan. Perbandingan penjualan dari tahun ke tahun dapat digunakan untuk melihat **tren pertumbuhan atau penurunan performa masing-masing cluster**.
+
+Cluster dengan total penjualan tertinggi dapat menjadi fokus utama dalam mempertahankan performa penjualan, sedangkan cluster dengan kontribusi lebih rendah dapat dievaluasi lebih lanjut untuk mengetahui faktor yang memengaruhi rendahnya penjualan.
+
+### 3. Top 3 Paket Berdasarkan `packageType`
+
+Hasil analisis menunjukkan tiga paket dengan total penjualan tertinggi pada masing-masing `packageType`. Paket dengan penjualan tertinggi menunjukkan bahwa paket tersebut memiliki tingkat permintaan yang relatif lebih tinggi dibandingkan paket lainnya.
+
+Informasi ini dapat digunakan sebagai dasar untuk mengevaluasi **popularitas paket**, menentukan strategi promosi, serta mempertimbangkan pengembangan atau penyesuaian paket berdasarkan kebutuhan pengguna.
