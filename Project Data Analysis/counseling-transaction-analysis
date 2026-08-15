@@ -1,3 +1,5 @@
+# Project Data Analysis – Transaksi Layanan Konseling & Pelayanan
+
 ## Problem Statement
 Dataset transaksi layanan konseling dan meditasi terdiri dari tiga tabel utama, yaitu Payments, Packages, dan Clusters, yang menyimpan informasi mengenai transaksi pengguna, jenis paket layanan, serta karakteristik cluster layanan. Namun, data tersebut masih perlu dianalisis lebih lanjut untuk mengetahui pola penjualan dan perilaku pengguna.
 
